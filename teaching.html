@@ -6,9 +6,49 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&display=swap" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/e211125178.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
+  <!-- Hidden visually, intended for screen readers -->
+  <div class="skip"><a href="#main">Skip to Main Content</a></div>
+
+  <!-- Begin top navigation bar -->
+
+  <header>
+  <div id="navigations">
+  <a href="#main-menu" id="main-menu-toggle" class="menu-toggle" aria-label="Open main menu">
+    <span class="sr-only">Open main menu</span>
+    <span class="fa fa-bars" aria-hidden="true"></span>
+  </a>
+
+  <a href="index.html">
+    <h1 id="logo">Alain Cohn</h1>
+  </a>
+
+  <nav id="main-menu" class="main-menu" aria-label="Main menu">
+    <a href="#main-menu-toggle" id="main-menu-close" class="menu-close" aria-label="Close main menu">
+      <span class="sr-only">Close main menu</span>
+      <span class="fa fa-close" aria-hidden="true"></span>
+    </a>
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="research.html">RESEARCH</a></li>
+      <li><a href="teaching.html" id="currentpage">TEACHING</a></li>
+      <li><a href="media.html">MEDIA</a></li>
+      <li><a href="cv.html">CV</a></li>
+      <li><a href="links.html">LINKS</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+  </nav>
+  <a href="#main-menu-toggle"
+     class="backdrop"
+     tabindex="-1"
+     aria-hidden="true" hidden></a>
+</div>
+</header>
+  <div class="container">
     <h1>Teaching</h1>
     <h2>2019</h2>
     <ul>
@@ -42,5 +82,6 @@
     <ul>
         <li>Empirical Methods of Experimental Economics (Master), University of Zurich</li>
     </ul>
+  </div>
     </body>
 </html>

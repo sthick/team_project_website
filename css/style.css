@@ -1,3 +1,311 @@
+
+/* ===============================
+   ===============================
+   BEGIN NAVIGATION CSS SECTION
+   ===============================
+   ===============================
+*/
+#navigations {
+  background-color:#fff;
+  height:15vh;
+  max-height:75px;
+  min-height:70px;
+  width:100%;
+}
+
+header {
+  padding-bottom: 35px;
+}
+/* Screen reader only */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+/* Button styling */
+.menu-toggle {
+  display: inline-block;
+  float:right;
+  margin-top:15px;
+  padding: 25px 50px;
+  line-height: 1em;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.menu-toggle:hover,
+.menu-toggle:focus {
+  color: #3c78d8;
+}
+
+/*
+ Default styles + Mobile first
+ Offscreen menu style
+*/
+.main-menu {
+  position: absolute;
+  display: none;
+  left: -200px;
+  top: 0;
+  height: 100%;
+	overflow-y:scroll;
+	overflow-x: none;
+  background-color:#fff;
+	transition: left 0.3s ease, box-shadow 0.3s ease;
+	z-index: 999;
+
+}
+
+.main-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 1em 0 0;
+  /* Hide shadow w/ -8px while 'closed' */
+
+  min-height: 100%;
+  width: 200px;
+
+}
+
+.main-menu a {
+  display: block;
+  padding: .1em 15px;
+  line-height: 1em;
+  font-size: 1em;
+  color: #333;
+  text-decoration: none;
+
+}
+
+.main-menu a:hover,
+.main-menu a:focus {
+  color:#3c78d8;
+}
+
+.main-menu .menu-close {
+  position: absolute;
+  right: 10px;
+  top: 17px;
+}
+
+/*
+ On small devices, allow it to toggle...
+*/
+/*
+ :target for non-JavaScript
+ [aria-expanded] will be used if/when JavaScript is added to improve interaction, though it's completely optional.
+*/
+.main-menu:target,
+.main-menu[aria-expanded="true"] {
+  display: block;
+  left: 0;
+  outline: none;
+  -moz-box-shadow: 3px 0 12px rgba(0,0,0,.25);
+  -webkit-box-shadow: 3px 0 12px rgba(0,0,0,.25);
+  box-shadow: 3px 0 12px rgba(0,0,0,.25);
+}
+
+.main-menu:target .menu-close,
+.main-menu[aria-expanded="true"] .menu-close {
+  z-index: 1001;
+}
+
+.main-menu:target ul,
+.main-menu[aria-expanded="true"] ul {
+  position: relative;
+  z-index: 1000;
+}
+
+/*
+ We could us `.main-menu:target:after`, but
+ it wouldn't be clickable.
+*/
+.main-menu:target + .backdrop,
+.main-menu[aria-expanded="true"] + .backdrop{
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 998;
+  background: #000;
+  background: rgba(0,0,0,.85);
+  cursor: default;
+}
+
+@supports (position: fixed) {
+  .main-menu,
+  .main-menu:target + .backdrop,
+  .main-menu[aria-expanded="true"] + .backdrop{
+    position: fixed;
+  }
+}
+
+/*
+ Larger screen styling
+ Horizontal menu
+*/
+@media (min-width: 901px) {
+  .menu-toggle,
+  .main-menu .menu-close {
+    display: none;
+  }
+
+  /* Undo positioning of off-canvas menu */
+  .main-menu {
+    position: relative;
+		float:right;
+		top: 44px;
+		height: auto;
+    display: block;
+    overflow:hidden;
+    left:-75px;
+  }
+
+  .main-menu ul {
+    display: flex;
+
+    /* Undo off-canvas styling */
+    padding: 0;
+    -webkit-box-shadow: none;
+       -moz-box-shadow: none;
+            box-shadow: none;
+    height: auto;
+    width: auto;
+    background: none;
+  }
+
+  .main-menu a {
+    color: #000;
+    border: 0 !important; /* Remove borders from off-canvas styling */
+  }
+
+  .main-menu a:hover,
+  .main-menu a:focus {
+    background: none; /* Remove background from off-canvas styling */
+    color: #3c78d8;
+  }
+}
+
+nav ul{
+  list-style-type: none;
+  margin-right:90px;
+  margin-top:15px;
+}
+
+nav li{
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-left:0.05vw;
+  display:inline;
+}
+
+nav a{
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration:underline;
+}
+/*This h1 should be used for nav exclusively. */
+h1 {
+    font-size: 2.5rem;
+    margin: .67rem 0;
+}
+#logo {
+  float:left;
+  margin-left:5%;
+  margin-top: 25px;
+  color:black;
+  min-width:100px;
+  max-width:200px;
+  position: absolute;
+  transition: all .3s;
+
+}
+
+#logo:hover {
+  animation-name: logo;
+  animation-duration: .3s;
+  animation-fill-mode: forwards;
+  opacity:0.6;
+  /*box-shadow: 2px 3px 10px #000000;
+  margin-top:20px;
+  margin-left:5.3%; */
+  animation-duration: 1s;
+}
+
+
+.skip a{
+  background: white;
+  left: 0;
+  padding: 6px;
+  position: absolute;
+  top: -40px;
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 1;
+}
+
+.skip a:focus{
+  top:0;
+}
+
+*:focus {
+  border: 2px solid black;
+}
+/*tablet*/
+@media screen and (max-width: 900px) {
+  .nav {
+    text-align:center;
+    padding:0px;
+    min-height:none;
+  }
+  nav ul{
+    list-style-type: none;
+    margin-right:0px;
+    background-color:#fff;
+    height:100vh;
+  }
+
+  nav li{
+    font-family: 'Source Sans Pro', sans-serif;
+    display:block;
+    padding-top:50px;
+  }
+
+  nav a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  nav a:hover{
+      text-decoration:underline;
+  }
+
+}  /*End the media query*/
+
+/* WHATEVER BRAND COLORS WE CHOOSE FOR HIM SHOULD GO HERE!!!*/
+#currentpage{
+  color:#colorhere;
+}
+/* ===============================
+   ===============================
+   END OF NAV CSS
+   ===============================
+   ===============================
+*/
+
+
 body {
     font-family: "Source Sans Pro";
 }
@@ -10,16 +318,9 @@ body {
     width: 100vw;
 }
 
-h1,
-h2,
-h3 {
-    text-align: center;
-}
 
-h1 {
-    font-size: 2rem;
-    margin: .67rem 0;
-}
+
+
 
 header {
     grid-column: 2 / 4;
@@ -54,7 +355,7 @@ p {
 }
 
 .nav li {
-    display: inline;  
+    display: inline;
 }
 
 .nav li a {
