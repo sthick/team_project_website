@@ -334,7 +334,7 @@ body {
     display: grid;
     grid-template-columns: 10% 40% 40% 10%;
     grid-row-gap: 20px;
-    grid-template-rows: auto 35px auto auto auto 50px;
+    grid-template-rows: auto 35px auto auto 50px;
     width: 100vw;
 }
 
@@ -346,17 +346,17 @@ header {
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin: .75rem 0;
 }
 
 h3 {
-    font-size: 1.17rem;
+    font-size: 1.3rem;
     margin: .83rem 0;
 }
 
 p {
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 1.5;
 }
 
@@ -383,30 +383,21 @@ p {
     font-weight: 600;
 }
 
-.text-block {
-    grid-column: 2 / 4;
-}
-
 .aboutme {
     grid-column: 2 / 4;
-    grid-row: 3 / 4;
+    grid-row: 1 / 2;
 }
 
-.newpublications {
-    grid-column: 2 / 3;
-    grid-row: 4 / 5;
-}
-
-.newpapers {
-    grid-column: 3 / 4;
-    grid-row: 4 / 5;
+.news {
+    grid-row: 2 / 3;
+    grid-column: 2 / 4;
 }
 
 @media only screen and (min-width: 800px) {
     .container {
         display: grid;
         grid-template-columns: 20% 30% 30% 20%;
-        grid-template-rows: auto 70px auto auto auto 80px;
+        grid-template-rows: auto 70px auto auto 80px;
         grid-row-gap: 40px;
         width: 100vw;
     }
