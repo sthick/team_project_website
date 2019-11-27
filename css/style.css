@@ -400,6 +400,9 @@ p {
 }
 #heading2{
     background-color: #00274c;
+    padding: 50px;
+    color: white;
+    grid-column: 1/5;
 }
 @media only screen and (min-width: 800px) {
     .container {
