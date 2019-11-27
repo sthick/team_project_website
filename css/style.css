@@ -346,7 +346,6 @@ header {
 }
 
 h2 {
-    background-color: #00274c;
     font-size: 1.8rem;
     margin: .75rem 0;
 }
@@ -394,6 +393,14 @@ p {
     grid-column: 2 / 4;
 }
 
+
+/* Start of Teaching page style */
+.teaching{
+    grid-column: 2/4;
+}
+#heading2{
+    background-color: #00274c;
+}
 @media only screen and (min-width: 800px) {
     .container {
         display: grid;
