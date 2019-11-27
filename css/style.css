@@ -405,7 +405,7 @@ p {
     text-align: center;
     font-size: 45px;
 }
-.teaching ul{
+.teaching ul, h3{
     border: solid 2px black;
     padding: 50px;
     line-height: 45px;
