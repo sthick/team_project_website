@@ -346,6 +346,7 @@ header {
 }
 
 h2 {
+    background-color: #00274c;
     font-size: 1.8rem;
     margin: .75rem 0;
 }
