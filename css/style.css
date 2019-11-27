@@ -405,6 +405,9 @@ p {
     text-align: center;
     font-size: 45px;
 }
+.teaching ul{
+    border: solid 2px black;
+}
 @media only screen and (min-width: 800px) {
     .container {
         display: grid;
