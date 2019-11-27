@@ -409,6 +409,7 @@ p {
     color: white;
     text-align: center;
     font-size: 45px;
+    box-shadow: 0px 10px 10px grey;
 }
 .teaching ul{
     border: solid 2px black;
