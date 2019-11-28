@@ -333,7 +333,7 @@ body {
     display: grid;
     grid-template-columns: 10% 40% 40% 10%;
     grid-row-gap: 20px;
-    grid-template-rows: auto 35px auto auto 50px;
+    grid-template-rows: auto 35px auto auto auto 50px;
     width: 100vw;
 }
 
@@ -382,14 +382,19 @@ p {
     font-weight: 600;
 }
 
+.profilepic {
+  grid-column: 2 / 4;
+  grid-row: 1 / 2;
+}
+
 .aboutme {
     grid-column: 2 / 4;
-    grid-row: 1 / 2;
+    grid-row: 3 / 4;
 }
 
 .news {
-    grid-row: 2 / 3;
     grid-column: 2 / 4;
+    grid-row: 4 / 5;
 }
 
 
@@ -408,20 +413,22 @@ p {
     color: white;
     text-align: center;
     font-size: 45px;
-    box-shadow: 0px 10px 10px grey;
+    box-shadow: 0px 8px 8px grey;
 }
 .teaching ul{
     border: solid 1px black;
     padding: 50px;
     line-height: 45px;
-    box-shadow: 10px 10px grey;
+    box-shadow: 8px 8px grey;
 }
 .teaching h3{
     margin-top: 20px;
 }
 #logo {
-    background-color: #B5985A;
-    padding: 25px;
+    /* background-color: #B5985A; */
+    background-color: #3c78d8;
+    opacity: .8;
+    padding: 20px;
     margin-top: 0px;
     box-shadow: 0px 10px 10px grey;
 
@@ -437,8 +444,27 @@ p {
     .container {
         display: grid;
         grid-template-columns: 20% 30% 30% 20%;
-        grid-template-rows: auto 70px auto auto 80px;
+        grid-template-rows: auto 70px auto auto auto 80px;
         grid-row-gap: 40px;
         width: 100vw;
+    }
+
+    .profilepic {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 10%;
+      grid-column: 1 / 2;
+      grid-row: 1 / 2;
+    }
+
+    .aboutme {
+        grid-column: 2 / 4;
+        grid-row: 1 / 2;
+    }
+
+    .news {
+        grid-column: 2 / 4;
+        grid-row: 2 / 3;
     }
 }
