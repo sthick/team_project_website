@@ -405,15 +405,16 @@ p {
    ===============================
 */
 .teaching{
-    grid-column: 2/4;
+    grid-column: 2 / 4;
 }
 #heading2{
     background-color: #00274c;
-    padding: 50px;
+    padding: 30px 50px;
     color: white;
     text-align: center;
     font-size: 45px;
     box-shadow: 0px 8px 8px grey;
+    letter-spacing: 2px;
 }
 .teaching ul{
     border: solid 1px black;
@@ -440,6 +441,33 @@ p {
    ===============================
 */
 
+/* ===============================
+   ===============================
+   Start of Link Style
+   ===============================
+   ===============================
+*/
+
+.linkheading {
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+}
+
+.professional {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.collaborators {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+/* ===============================
+   ===============================
+   END OF Link Style
+   ===============================
+   ===============================
+*/
 @media only screen and (min-width: 800px) {
     .container {
         display: grid;
