@@ -458,10 +458,19 @@ p {
   grid-row: 2 / 3;
 }
 
+.professional ul {
+  list-style-type: none;
+}
+
 .collaborators {
   grid-column: 3 / 4;
   grid-row: 2 / 3;
 }
+
+.collaborators ul {
+  list-style-type: none;
+}
+
 /* ===============================
    ===============================
    END OF Link Style
