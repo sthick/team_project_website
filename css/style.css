@@ -256,6 +256,16 @@ h1 {
     animation-duration: 1s;
 }
 
+#logo {
+   /* background-color: #B5985A; */
+   /* background-color: #3c78d8; */
+   opacity: .8;
+   padding: 20px;
+   margin-top: 0px;
+   box-shadow: 0px 10px 10px grey;
+
+}
+
 
 .skip a {
     background: white;
@@ -424,15 +434,8 @@ p {
 .teaching h3{
     margin-top: 20px;
 }
-#logo {
-    /* background-color: #B5985A; */
-    background-color: #3c78d8;
-    opacity: .8;
-    padding: 20px;
-    margin-top: 0px;
-    box-shadow: 0px 10px 10px grey;
 
-}
+
 /* ===============================
    ===============================
    END OF Teaching Style
