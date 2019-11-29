@@ -461,6 +461,12 @@ p {
   list-style-type: none;
 }
 
+.professional a {
+  text-decoration: none;
+  color: black;
+  line-height: 2;
+}
+
 .collaborators {
   grid-column: 3 / 4;
   grid-row: 2 / 3;
@@ -470,6 +476,11 @@ p {
   list-style-type: none;
 }
 
+.collaborators a {
+  text-decoration: none;
+  color: black;
+  line-height: 2;
+}
 /* ===============================
    ===============================
    END OF Link Style
