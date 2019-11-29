@@ -467,6 +467,10 @@ p {
   line-height: 2;
 }
 
+.professional a:hover {
+  color: #3c78d8;
+}
+
 .collaborators {
   grid-column: 3 / 4;
   grid-row: 2 / 3;
@@ -481,6 +485,11 @@ p {
   color: black;
   line-height: 2;
 }
+
+.collaborators a:hover {
+  color: #3c78d8;
+}
+
 /* ===============================
    ===============================
    END OF Link Style
