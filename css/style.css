@@ -258,7 +258,7 @@ h1 {
 
 #logo {
    /* background-color: #B5985A; */
-    background-color: #3c78d8; 
+    background-color: #3c78d8;
    opacity: .8;
    padding: 20px;
    margin-top: 0px;
@@ -526,4 +526,55 @@ p {
         grid-column: 2 / 4;
         grid-row: 2 / 3;
     }
+}
+
+
+/* ===============================
+   ===============================
+   Start of Research style
+   ===============================
+   ===============================
+*/
+
+#research {
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+}
+
+.professional {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.professional ul {
+  list-style-type: none;
+}
+
+.professional a {
+  text-decoration: none;
+  color: black;
+  line-height: 2;
+}
+
+.professional a:hover {
+  color: #3c78d8;
+}
+
+.collaborators {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+
+.collaborators ul {
+  list-style-type: none;
+}
+
+.collaborators a {
+  text-decoration: none;
+  color: black;
+  line-height: 2;
+}
+
+.collaborators a:hover {
+  color: #3c78d8;
 }
