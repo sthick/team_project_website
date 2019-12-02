@@ -5,8 +5,8 @@
    ===============================
 */
 #navigations {
-    height: 15vh;
-    max-height: 75px;
+    height: 16vh;
+    max-height: 85px;
     min-height: 70px;
     width: 100%;
 }
@@ -163,7 +163,7 @@ header {
     .main-menu {
         position: relative;
         float: right;
-        top: 44px;
+        top: 54px;
         height: auto;
         display: block;
         overflow: hidden;
@@ -236,7 +236,7 @@ h1 {
 #logo {
     float: left;
     margin-left: 5%;
-    margin-top: 25px;
+    margin-top: 40px;
     color: black;
     min-width: 100px;
     max-width: 200px;
@@ -255,16 +255,16 @@ h1 {
   margin-left:5.3%; */
     animation-duration: 1s;
 }
-
+/*
 #logo {
-   /* background-color: #B5985A; */
+    background-color: #B5985A;
     background-color: #3c78d8;
    opacity: .8;
    padding: 20px;
    margin-top: 0px;
    box-shadow: 0px 10px 10px grey;
 
-}
+} */
 
 
 .skip a {
@@ -344,6 +344,12 @@ body {
     grid-row-gap: 20px;
     grid-template-rows: auto 35px auto auto auto 50px;
     width: 100vw;
+    background: rgb(239,239,240);
+   background: -moz-linear-gradient(237deg, rgba(239,239,240,1) 0%, rgba(255,255,255,1) 100%);
+   background: -webkit-linear-gradient(237deg, rgba(239,239,240,1) 0%, rgba(255,255,255,1) 100%);
+   background: linear-gradient(237deg, rgba(239,239,240,1) 0%, rgba(255,255,255,1) 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#efeff0",endColorstr="#ffffff",GradientType=1);
+     padding-top:25px;
 }
 
 
@@ -417,22 +423,23 @@ p {
     grid-column: 2 / 4;
 }
 #heading2{
-    background-color: #00274c;
-    padding: 30px 50px;
-    color: white;
-    text-align: center;
-    font-size: 45px;
-    box-shadow: 0px 8px 8px grey;
-    letter-spacing: 2px;
+  color: #43529f;
+  padding: 30px 50px;
+  background-color:white!important;
+  text-align: center;
+  font-size: 45px;
+  box-shadow: 5px 5px 8px grey;
+  letter-spacing: 2px;
 }
 .teaching ul{
-    border: solid 1px grey;
-    padding: 50px;
-    line-height: 45px;
-    box-shadow: 4px 4px 12px grey;
+  background-color:white;
+  padding: 40px;
+  margin-top:30px;
+  line-height: 45px;
+  box-shadow: 5px 5px 8px grey;
 }
 .teaching h3{
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 
@@ -537,25 +544,28 @@ p {
 */
 
 #heading_research{
-    background-color: #00274c;
+    color: #43529f;
     padding: 30px 50px;
-    color: white;
+    background-color:white!important;
     text-align: center;
     font-size: 45px;
-    box-shadow: 0px 8px 8px grey;
+    box-shadow: 5px 5px 8px grey;
     letter-spacing: 2px;
 }
 
 .research{
+
     grid-column: 2 / 4;
 }
 
 .research dt{
-  border: solid 1px grey;
+  /*border: solid 1px grey;*/
+  background-color:white;
   padding: 40px;
+  margin-top:30px;
   line-height: 45px;
-  box-shadow: 4px 4px 12px grey;
+  box-shadow: 5px 5px 8px grey;
 }
 .research h3{
-    margin-top: 20px;
+    margin-top: 40px;
 }
