@@ -585,3 +585,10 @@ p {
 .research p{
   margin-top:55px;
 }
+
+.research h5 {
+  font-style:italic;
+  font-weight:normal;
+  margin-top:20px;
+
+}
