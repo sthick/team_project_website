@@ -121,10 +121,7 @@ header {
     z-index: 1000;
 }
 
-/*
- We could us `.main-menu:target:after`, but
- it wouldn't be clickable.
-*/
+
 .main-menu:target + .backdrop,
 .main-menu[aria-expanded="true"] + .backdrop {
     position: absolute;
@@ -248,7 +245,7 @@ h1 {
 #logo:hover {
     animation-name: logo;
     animation-duration: .3s;
-    animation-fill-mode: forwards;
+    animation-fill-mode:forwards;
     opacity: 0.6;
     /*box-shadow: 2px 3px 10px #000000;
   margin-top:20px;
@@ -285,6 +282,7 @@ h1 {
 *:focus {
     border: 2px solid black;
 }
+
 
 /*tablet*/
 @media screen and (max-width: 900px) {
