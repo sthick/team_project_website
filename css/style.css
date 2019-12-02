@@ -546,7 +546,7 @@ a:hover {
 }
 .contactinfo{
     grid-column: 2/4;
-    grid-row: 3/4;
+    grid-row: 2/4;
     background-color: white;
     padding: 30px;
     padding-top: 100px;
