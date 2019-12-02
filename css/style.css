@@ -31,7 +31,7 @@ header {
 .menu-toggle {
     display: inline-block;
     float: right;
-    margin-top: 15px;
+    margin-top: 25px;
     padding: 25px 50px;
     line-height: 1em;
     font-size: 1.2em;
@@ -149,7 +149,7 @@ header {
  Larger screen styling
  Horizontal menu
 */
-@media (min-width: 901px) {
+@media (min-width: 985px) {
 
     .menu-toggle,
     .main-menu .menu-close {
