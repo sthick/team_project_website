@@ -336,11 +336,7 @@ h1 {
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: rgb(239,239,240);
-    background: -moz-linear-gradient(237deg, rgba(239,239,240,1) 0%, rgba(255,255,255,1) 100%);
-    background: -webkit-linear-gradient(237deg, rgba(239,239,240,1) 0%, rgba(255,255,255,1) 100%);
-    background: linear-gradient(237deg, rgba(239,239,240,1) 0%, rgba(255,255,255,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#efeff0",endColorstr="#ffffff",GradientType=1);
+    
 }
 
 .container {
@@ -350,11 +346,11 @@ body {
     grid-template-rows: auto 35px auto auto auto 50px;
     width: 100vw;
     background: rgb(239,239,240);
-    background: -moz-linear-gradient(237deg, rgba(239,239,240,1) 0%, rgba(255,255,255,1) 100%);
-    background: -webkit-linear-gradient(237deg, rgba(239,239,240,1) 0%, rgba(255,255,255,1) 100%);
-    background: linear-gradient(237deg, rgba(239,239,240,1) 0%, rgba(255,255,255,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#efeff0",endColorstr="#ffffff",GradientType=1);
-    padding-top:25px;
+   background: -moz-linear-gradient(237deg, rgba(239,239,240,1) 0%, rgba(255,255,255,1) 100%);
+   background: -webkit-linear-gradient(237deg, rgba(239,239,240,1) 0%, rgba(255,255,255,1) 100%);
+   background: linear-gradient(237deg, rgba(239,239,240,1) 0%, rgba(255,255,255,1) 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#efeff0",endColorstr="#ffffff",GradientType=1);
+     padding-top:25px;
 }
 
 
