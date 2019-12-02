@@ -426,10 +426,10 @@ p {
     letter-spacing: 2px;
 }
 .teaching ul{
-    border: solid 1px black;
+    border: solid 1px grey;
     padding: 50px;
     line-height: 45px;
-    box-shadow: 8px 8px grey;
+    box-shadow: 4px 4px 12px grey;
 }
 .teaching h3{
     margin-top: 20px;
@@ -536,45 +536,26 @@ p {
    ===============================
 */
 
-#research {
+#heading_research{
+    background-color: #00274c;
+    padding: 30px 50px;
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    box-shadow: 0px 8px 8px grey;
+    letter-spacing: 2px;
+}
+
+.research{
     grid-column: 2 / 4;
-    grid-row: 1 / 2;
 }
 
-.professional {
-  grid-column: 2 / 3;
-  grid-row: 2 / 3;
+.research dt{
+  border: solid 1px grey;
+  padding: 40px;
+  line-height: 45px;
+  box-shadow: 4px 4px 12px grey;
 }
-
-.professional ul {
-  list-style-type: none;
-}
-
-.professional a {
-  text-decoration: none;
-  color: black;
-  line-height: 2;
-}
-
-.professional a:hover {
-  color: #3c78d8;
-}
-
-.collaborators {
-  grid-column: 3 / 4;
-  grid-row: 2 / 3;
-}
-
-.collaborators ul {
-  list-style-type: none;
-}
-
-.collaborators a {
-  text-decoration: none;
-  color: black;
-  line-height: 2;
-}
-
-.collaborators a:hover {
-  color: #3c78d8;
+.research h3{
+    margin-top: 20px;
 }
