@@ -530,6 +530,37 @@ a:hover {
    ===============================
    ===============================
 */
+/* ===============================
+   ===============================
+   Start of contact Style
+   ===============================
+   ===============================
+*/
+.contactpic {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+}
+.contactheading {
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+}
+.contactinfo{
+    grid-column: 2/4;
+    grid-row: 3/4;
+    background-color: white;
+    padding: 30px;
+    padding-top: 100px;
+    margin-top: 25px;
+    line-height: 25px;
+    box-shadow: 5px 5px 8px grey;
+}
+
+/* ===============================
+   ===============================
+   End of contact Style
+   ===============================
+   ===============================
+*/
 @media only screen and (min-width: 800px) {
     .container {
         display: grid;
@@ -677,23 +708,10 @@ color: #43529f;
    ===============================
    ===============================
 */
-.contactpic {
-    grid-column: 2 / 4;
-    grid-row: 2 / 3;
-}
-.contactheading {
-    grid-column: 2 / 4;
-    grid-row: 1 / 2;
-}
 .contactinfo{
     grid-column: 3 / 4;
     grid-row: 2/9;
-    background-color: white;
-    padding: 30px;
     padding-top: 100px;
-    margin-top: 25px;
-    line-height: 25px;
-    box-shadow: 5px 5px 8px grey;
 }
 
 /* ===============================
