@@ -562,8 +562,9 @@ a:hover {
     grid-row: 1 / 2;
 }
 .contactinfo{
-    grid-column: 2/4;
-    grid-row: 2/4;
+    grid-column: 3 / 4;
+    grid-row: 2/9;
+    padding-top: 100px;
     background-color: white;
     padding: 30px;
     padding-top: 100px;
@@ -726,9 +727,8 @@ color: #43529f;
    ===============================
 */
 .contactinfo{
-    grid-column: 3 / 4;
-    grid-row: 2/9;
-    padding-top: 100px;
+    grid-column: 2/4;
+    grid-row: 2/4;
 }
 
 /* ===============================
