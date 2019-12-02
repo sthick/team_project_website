@@ -571,6 +571,7 @@ p {
 }
 .research h3{
     margin-top: 40px;
+    margin-bottom:40px;
 }
 .research ul{
   /*border: solid 1px grey;*/
@@ -579,4 +580,8 @@ p {
   margin-top:25px;
   line-height: 25px;
   box-shadow: 5px 5px 8px grey;
+}
+
+.research p{
+  margin-top:55px;
 }
