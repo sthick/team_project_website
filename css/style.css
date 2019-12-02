@@ -617,7 +617,7 @@ a:hover {
     .contactinfo {
         background-color:white;
         padding: 25px;
-        margin-top:25px;
+        padding-top: 100px;
         line-height: 25px;
         box-shadow: 5px 5px 8px grey;
         grid-column: 3 / 4;
