@@ -685,7 +685,7 @@ color: #43529f;
     grid-column: 2 / 4;
     grid-row: 1 / 2;
 }
-.info{
+.contactinfo{
     grid-column: 3 / 4;
     grid-row: 2 / 3;
 }
