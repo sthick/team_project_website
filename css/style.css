@@ -288,9 +288,10 @@ h1 {
 }
 
 footer {
-    grid-column: 1 / -1;
-    grid-row: 8 / auto;
-    padding: 30px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     text-align: center;
     font-weight: 700;
 }
