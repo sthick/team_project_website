@@ -592,3 +592,10 @@ p {
   margin-top:5px;
 
 }
+
+.research a {
+  text-decoration:none;
+  text-decoration-line: none;
+  text-decoration-color:none;
+color: #43529f;
+}
