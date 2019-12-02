@@ -504,7 +504,7 @@ a:hover {
 .professional a {
   text-decoration: none;
   color: black;
-  line-height: 2;
+  line-height: 1.6;
 }
 
 .professional a:hover {
@@ -525,7 +525,7 @@ a:hover {
 .collaborators a {
   text-decoration: none;
   color: black;
-  line-height: 2;
+  line-height: 1.2;
 
 }
 
