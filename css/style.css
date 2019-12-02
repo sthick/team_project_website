@@ -679,6 +679,10 @@ color: #43529f;
 */
 .contactpic {
     grid-column: 2 / 4;
+    grid-row: 2 / 3;
+}
+.contactheading {
+    grid-column: 2 / 4;
     grid-row: 1 / 2;
 }
 
