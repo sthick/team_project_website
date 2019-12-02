@@ -435,7 +435,7 @@ p {
   background-color:white;
   padding: 40px;
   margin-top:30px;
-  line-height: 45px;
+  line-height: 25px;
   box-shadow: 5px 5px 8px grey;
 }
 .teaching h3{
@@ -561,9 +561,9 @@ p {
 .research dt{
   /*border: solid 1px grey;*/
   background-color:white;
-  padding: 40px;
-  margin-top:30px;
-  line-height: 45px;
+  padding: 30px;
+  margin-top:25px;
+  line-height: 25px;
   box-shadow: 5px 5px 8px grey;
 }
 .research h3{
