@@ -564,7 +564,7 @@ p {
 .research dt{
   /*border: solid 1px grey;*/
   background-color:white;
-  padding: 30px;
+  padding: 25px;
   margin-top:25px;
   line-height: 25px;
   box-shadow: 5px 5px 8px grey;
@@ -589,6 +589,6 @@ p {
 .research h5 {
   font-style:italic;
   font-weight:normal;
-  margin-top:20px;
+  margin-top:5px;
 
 }
