@@ -336,7 +336,16 @@ h1 {
 
 body {
     font-family: 'Roboto', sans-serif;
-    
+    background: rgb(239,239,240);
+   background: -moz-linear-gradient(237deg, rgba(239,239,240,1) 0%, rgba(255,255,255,1) 100%);
+   background: -webkit-linear-gradient(237deg, rgba(239,239,240,1) 0%, rgba(255,255,255,1) 100%);
+   background: linear-gradient(237deg, rgba(239,239,240,1) 0%, rgba(255,255,255,1) 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#efeff0",endColorstr="#ffffff",GradientType=1);
+}
+
+#navigations {
+  background-color:white;
+  padding-bottom:40px;
 }
 
 .container {
@@ -350,7 +359,7 @@ body {
    background: -webkit-linear-gradient(237deg, rgba(239,239,240,1) 0%, rgba(255,255,255,1) 100%);
    background: linear-gradient(237deg, rgba(239,239,240,1) 0%, rgba(255,255,255,1) 100%);
    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#efeff0",endColorstr="#ffffff",GradientType=1);
-     padding-top:25px;
+
 }
 
 
@@ -373,6 +382,14 @@ h3 {
 p {
     font-size: 1.1rem;
     line-height: 1.5;
+}
+
+a {
+  color: #43529f!important;
+}
+
+a:hover {
+  opacity:0.6;
 }
 
 .nav {
@@ -427,7 +444,7 @@ p {
     grid-column: 2 / 4;
 }
 #heading2{
-  color: #43529f;
+  color: black;
   padding: 30px 50px;
   background-color:white!important;
   text-align: center;
@@ -488,21 +505,26 @@ p {
 .collaborators {
   grid-column: 3 / 4;
   grid-row: 2 / 3;
+
 }
 
 .collaborators ul {
   list-style-type: none;
+
 }
 
 .collaborators a {
   text-decoration: none;
   color: black;
   line-height: 2;
+
 }
 
 .collaborators a:hover {
   color: #3c78d8;
 }
+
+
 
 /* ===============================
    ===============================
@@ -548,7 +570,7 @@ p {
 */
 
 #heading_research{
-    color: #43529f;
+    color: black;
     padding: 30px 50px;
     background-color:white!important;
     text-align: center;
