@@ -569,3 +569,11 @@ p {
 .research h3{
     margin-top: 40px;
 }
+.research ul{
+  /*border: solid 1px grey;*/
+  background-color:white;
+  padding: 30px;
+  margin-top:25px;
+  line-height: 25px;
+  box-shadow: 5px 5px 8px grey;
+}
