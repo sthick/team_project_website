@@ -652,6 +652,15 @@ color: #43529f;
   grid-row:3/4;
 }
 
+.media a {
+  text-decoration-line: none;
+}
+
+.media h3{
+    margin-top: 40px;
+    margin-bottom:40px;
+}
+
 
 
 /* ===============================
