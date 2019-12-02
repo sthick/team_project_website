@@ -689,6 +689,13 @@ color: #43529f;
     grid-column: 3 / 4;
     grid-row: 2 / 3;
 }
+.contactinfo p{
+    background-color:white;
+    padding: 30px;
+    margin-top:25px;
+    line-height: 25px;
+    box-shadow: 5px 5px 8px grey;
+}
 
 /* ===============================
    ===============================
