@@ -431,6 +431,7 @@ a:hover {
 .profilepic {
   grid-column: 2 / 4;
   grid-row: 1 / 2;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
