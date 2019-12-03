@@ -705,6 +705,17 @@ input[type=submit]:hover {
         grid-column: 3 / 4;
         grid-row: 1 / 2;
     }
+    
+    .professional {
+      grid-column: 2 / 3;
+      grid-row: 2 / 3;
+    }
+  
+  
+    .collaborators {
+      grid-column: 2 / 3;
+      grid-row: 3 / 4;
+    }
 }
 
 
@@ -829,77 +840,7 @@ color: #43529f;
    ===============================
    ===============================
 */
-/* ===============================
-   ===============================
-   Start of Link Style
-   ===============================
-   ===============================
-*/
 
-.linkheading {
-  grid-column: 2 / 4;
-  grid-row: 1 / 2;
-}
-
-.professional {
-grid-column: 2 / 3;
-grid-row: 2 / 3;
-}
-
-.professional ul {
-list-style-type: none;
-background-color:white;
-padding: 40px;
-margin-top:30px;
-margin-right: 50px;
-line-height: 25px;
-box-shadow: 5px 5px 8px grey;
-}
-
-.professional a {
-text-decoration: none;
-color: black;
-line-height: 1;
-}
-
-.professional a:hover {
-color: #3c78d8;
-}
-
-.collaborators {
-grid-column: 3 / 4;
-grid-row: 2 / 3;
-
-}
-
-.collaborators ul {
-list-style-type: none;
-background-color:white;
-padding: 40px;
-margin-top:30px;
-line-height: 25px;
-box-shadow: 5px 5px 8px grey;
-}
-
-.collaborators a {
-text-decoration: none;
-color: black;
-line-height: 1;
-
-}
-
-.collaborators a:hover {
-color: #3c78d8;
-}
-
-
-
-/* ===============================
- ===============================
- END OF Link Style
- ===============================
- ===============================
-*/
 /* ===============================
    ===============================
    Start of footer style
