@@ -367,6 +367,7 @@ body {
     grid-row-gap: 20px;
     grid-template-rows: auto 35px auto auto auto 50px;
     width: 100vw;
+    height: 100vh;
     background: rgb(239,239,240);
    background: -moz-linear-gradient(237deg, rgba(239,239,240,1) 0%, rgba(255,255,255,1) 100%);
    background: -webkit-linear-gradient(237deg, rgba(239,239,240,1) 0%, rgba(255,255,255,1) 100%);
