@@ -526,7 +526,11 @@ a:hover {
 
 .collaborators ul {
   list-style-type: none;
-
+  background-color:white;
+  padding: 40px;
+  margin-top:30px;
+  line-height: 25px;
+  box-shadow: 5px 5px 8px grey;
 }
 
 .collaborators a {
@@ -785,6 +789,15 @@ color: #43529f;
   grid-row: 2 / 3;
 }
 
+.examples ul, .german ul, .video a, .podcast a{
+  background-color:white;
+  padding: 40px;
+  margin-top:30px;
+  line-height: 25px;
+  box-shadow: 5px 5px 8px grey;
+}
+
+
 .german {
   grid-column:2/4;
   grid-row:3/4;
@@ -798,7 +811,6 @@ color: #43529f;
     margin-top: 40px;
     margin-bottom:40px;
 }
-
 
 
 /* ===============================
