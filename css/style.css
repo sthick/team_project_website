@@ -337,7 +337,8 @@ footer {
 
 #currentpage {
     color: #060829!important;
-    text-decoration-line:underline;
+    /* text-decoration-line:underline; */
+    background-color: rgb(239,239,240);
 }
 
 /* ===============================
