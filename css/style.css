@@ -776,7 +776,9 @@ input[type=submit]:hover {
       grid-row: 2 / 3;
     }
 
-
+    .professional ul {
+      margin-right: 50px;
+    }
     .collaborators {
       grid-column: 3/4;
       grid-row: 2/7;
