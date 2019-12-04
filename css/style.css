@@ -501,7 +501,7 @@ a:hover {
 }
 
 .professional {
-  grid-column: 2 / 3;
+  grid-column: 2 / 4;
   grid-row: 2 / 3;
 }
 
@@ -526,9 +526,18 @@ a:hover {
 }
 
 .collaborators {
-  grid-column: 2 / 3;
-  grid-row: 3 / 4;
+  grid-column: 2 / 4;
+  grid-row: 12 / 13;
 
+}
+
+.linked footer {
+    grid-column: 1 / -1;
+    grid-row: 13/14;
+    padding-top: 30px;
+    text-align: center;
+    font-weight: 700;
+    color: #43529F;
 }
 
 .collaborators ul {
@@ -678,6 +687,15 @@ input[type=submit]:hover {
       grid-row: 1 / 2;
     }
 
+    .linked footer {
+      grid-column: 1 / -1;
+      grid-row: 6 / 6;
+      padding-top: 30px;
+      text-align: center;
+      font-weight: 700;
+      color: #43529F;
+    }
+
     .aboutme {
         grid-column: 3 / 4;
         grid-row: 1 / 2;
@@ -705,18 +723,20 @@ input[type=submit]:hover {
         grid-column: 3 / 4;
         grid-row: 1 / 2;
     }
-    
+
     .professional {
       grid-column: 2 / 3;
       grid-row: 2 / 3;
     }
-  
-  
+
+
     .collaborators {
       grid-column: 3/4;
       grid-row: 2/7;
       margin-bottom: 100px;
     }
+
+
 }
 
 
