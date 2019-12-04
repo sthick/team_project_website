@@ -822,6 +822,15 @@ color: #43529f;
   grid-row:3/4;
 }
 
+.video{
+  grid-column:2/4;
+  grid-row:4/5;
+}
+
+.podcast{
+  grid-column:2/4;
+  grid-row:5/6;
+}
 .media a {
   text-decoration-line: none;
 }
