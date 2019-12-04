@@ -361,6 +361,29 @@ body {
   padding-bottom:40px;
 }
 
+#indexfoot {
+  grid-column: 1 / -1;
+  grid-row: 6 / 7;
+  padding-top: 30px;
+  text-align: center;
+  font-weight: 700;
+  color: #43529F;
+}
+
+@media screen and (max-width: 1074px) {
+  #indexfoot {
+    grid-column: 1 / -1;
+    grid-row: 7 / 7;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #indexfoot {
+    grid-column: 1 / -1;
+    grid-row: 6 / 6;
+  }
+}
+
 .container {
     display: grid;
     grid-template-columns: 10% 40% 40% 10%;
@@ -479,7 +502,14 @@ a:hover {
 .teaching h3{
     margin-top: 40px;
 }
-
+.research footer {
+  grid-column: 1 / -1;
+  grid-row: 3 / 3;
+  padding-top: 30px;
+  text-align: center;
+  font-weight: 700;
+  color: #43529F;
+}
 
 /* ===============================
    ===============================
@@ -574,6 +604,15 @@ a:hover {
    ===============================
    ===============================
 */
+
+.contact footer {
+  grid-column: 1 / -1;
+  grid-row: 4 / 4;
+  padding-top: 30px;
+  text-align: center;
+  font-weight: 700;
+  color: #43529F;
+}
 .contact {
   grid-column:2/4;
 }
@@ -651,6 +690,15 @@ input[type=submit]:hover {
   }
   .containered {
     grid-row:5/6;
+  }
+
+  .contact footer {
+    grid-column: 1 / -1;
+    grid-row: 6/6;
+    padding-top: 30px;
+    text-align: center;
+    font-weight: 700;
+    color: #43529F;
   }
 }
 @media screen and (max-width: 600px) {
@@ -799,6 +847,15 @@ input[type=submit]:hover {
   text-decoration-line: none;
   text-decoration-color:none;
 color: #43529f;
+}
+
+.research footer {
+  grid-column: 1 / -1;
+  grid-row: 3 / 3;
+  padding-top: 30px;
+  text-align: center;
+  font-weight: 700;
+  color: #43529F;
 }
 
 /* ===============================
