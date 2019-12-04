@@ -460,6 +460,9 @@ a:hover {
   align-items: center;
 }
 
+.profilepic img {
+  width: 250px;
+}
 .aboutme {
     grid-column: 2 / 4;
     grid-row: 3 / 4;
