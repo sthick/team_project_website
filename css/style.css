@@ -833,9 +833,6 @@ color: #43529f;
 .video h3, .podcast h3{
   margin-top: 80px;
 }
-.video a, .podcast a{
-  grid-column: 2/4;
-}
 
 
 /* ===============================
